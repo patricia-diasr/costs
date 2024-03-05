@@ -8,7 +8,6 @@ function NewProject () {
     const navigate = useNavigate();
 
     function createProject(project) {
-        // Initialize cost and services
         project.cost = 0;
         project.services = [];
 
